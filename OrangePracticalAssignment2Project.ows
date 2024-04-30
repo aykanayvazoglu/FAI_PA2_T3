@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='utf-8'?>
+<scheme version="2.0" title="" description="">
+	<nodes>
+		<node id="0" name="CSV File Import" qualified_name="Orange.widgets.data.owcsvimport.OWCSVFileImport" project_name="Orange3" version="" title="CSV File Import" position="(-668.0, 203.0)" />
+		<node id="1" name="Select Columns" qualified_name="Orange.widgets.data.owselectcolumns.OWSelectAttributes" project_name="Orange3" version="" title="Only Integers Values" position="(-470.0, 202.0)" />
+	</nodes>
+	<links>
+		<link id="0" source_node_id="0" sink_node_id="1" source_channel="Data" sink_channel="Data" enabled="true" source_channel_id="data" sink_channel_id="data" />
+	</links>
+	<annotations />
+	<thumbnail />
+	<node_properties>
+		<properties node_id="0" format="literal">{'_session_items': [], '_session_items_v2': [({'type': 'AbsPath', 'path': 'C:/Users/jonas/Downloads/air+quality/AirQualityUCI.csv'}, {'encoding': 'utf-8', 'delimiter': ';', 'quotechar': '"', 'doublequote': True, 'skipinitialspace': True, 'quoting': 0, 'columntypes': [{'start': 0, 'stop': 1, 'value': 'Time'}, {'start': 1, 'stop': 2, 'value': 'Categorical'}, {'start': 2, 'stop': 3, 'value': 'Numeric'}, {'start': 3, 'stop': 4, 'value': 'Categorical'}, {'start': 4, 'stop': 6, 'value': 'Numeric'}, {'start': 6, 'stop': 7, 'value': 'Categorical'}, {'start': 7, 'stop': 8, 'value': 'Numeric'}, {'start': 8, 'stop': 9, 'value': 'Categorical'}, {'start': 9, 'stop': 10, 'value': 'Numeric'}, {'start': 10, 'stop': 12, 'value': 'Categorical'}, {'start': 12, 'stop': 15, 'value': 'Numeric'}, {'start': 15, 'stop': 17, 'value': 'Skip'}], 'rowspec': [{'start': 0, 'stop': 1, 'value': 'Header'}], 'decimal_separator': ',', 'group_separator': ''})], 'compatibility_mode': False, 'controlAreaVisible': True, 'dialog_state': {'directory': 'C:/Users/jonas/Downloads/air+quality', 'filter': 'Text - comma separated (*.csv, *)'}, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x02t\x00\x00\x01\x10\x00\x00\x03\x8b\x00\x00\x02x\x00\x00\x02u\x00\x00\x01.\x00\x00\x03\x8a\x00\x00\x02w\x00\x00\x00\x00\x00\x00\x00\x00\x06\x00\x00\x00\x02u\x00\x00\x01.\x00\x00\x03\x8a\x00\x00\x02w', '__version__': 3}</properties>
+		<properties node_id="1" format="pickle">gASVzgIAAAAAAAB9lCiMC2F1dG9fY29tbWl0lIiMEmNvbnRyb2xBcmVhVmlzaWJsZZSIjBNpZ25v
+cmVfbmV3X2ZlYXR1cmVzlImME3NhdmVkV2lkZ2V0R2VvbWV0cnmUQ0IB2dDLAAMAAAAAAdMAAAB+
+AAAELAAAAvQAAAHUAAAAnAAABCsAAALzAAAAAAAAAAAGAAAAAdQAAACcAAAEKwAAAvOUjBJ1c2Vf
+aW5wdXRfZmVhdHVyZXOUiYwLX192ZXJzaW9uX1+USwGMEGNvbnRleHRfc2V0dGluZ3OUXZSMFW9y
+YW5nZXdpZGdldC5zZXR0aW5nc5SMB0NvbnRleHSUk5QpgZR9lCiMBnZhbHVlc5R9lCiMEWRvbWFp
+bl9yb2xlX2hpbnRzlH2UKIwERGF0ZZRLBIaUjAlhdmFpbGFibGWUSwCGlIwEVGltZZRLAYaUaBVL
+AYaUjAtQVDA4LlMxKENPKZRLAYaUaBVLAoaUjAhDNkg2KEdUKZRLAoaUaBVLA4aUjA1QVDA4LlMy
+KE5NSEMplEsBhpRoFUsEhpSMDFBUMDguUzMoTk94KZRLAYaUaBVLBYaUjAxQVDA4LlM0KE5PMimU
+SwGGlGgVSwaGlIwLUFQwOC5TNShPMymUSwGGlGgVSweGlIwBVJRLAoaUaBVLCIaUjAJSSJRLAoaU
+aBVLCYaUjAJBSJRLAoaUaBVLCoaUjAhOTUhDKEdUKZRLAoaUjAlhdHRyaWJ1dGWUSwCGlIwHTk94
+KEdUKZRLAoaUaDdLAYaUjAdOTzIoR1QplEsChpRoN0sChpSMBkNPKEdUKZRLAoaUaDdLA4aUdUr+
+////hpRoB0sBdYwKYXR0cmlidXRlc5R9lChoE0sEaBdLAWg/SwJoGksBaDVLAmgdSwJoIEsBaDlL
+AmgjSwFoPEsCaCZLAWgpSwFoLEsCaC9LAmgySwJ1jAVtZXRhc5R9lHViYXUu
+</properties>
+	</node_properties>
+	<session_state>
+		<window_groups />
+	</session_state>
+</scheme>
