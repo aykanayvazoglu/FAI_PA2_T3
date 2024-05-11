@@ -21,6 +21,7 @@
 		<node id="17" name="Distributions" qualified_name="Orange.widgets.visualize.owdistributions.OWDistributions" project_name="Orange3" version="" title="Age Histogram/Distribution" position="(-93.0, 650.0)" />
 		<node id="18" name="Distributions" qualified_name="Orange.widgets.visualize.owdistributions.OWDistributions" project_name="Orange3" version="" title="Ejection Fraction Histogram/Distribution" position="(-92.0, 744.0)" />
 		<node id="19" name="Distributions" qualified_name="Orange.widgets.visualize.owdistributions.OWDistributions" project_name="Orange3" version="" title="Time Histogram/Distribution" position="(-91.0, 837.0)" />
+		<node id="20" name="Feature Statistics" qualified_name="Orange.widgets.data.owfeaturestatistics.OWFeatureStatistics" project_name="Orange3" version="" title="Feature Statistics" position="(-89.0, 930.0)" />
 	</nodes>
 	<links>
 		<link id="0" source_node_id="0" sink_node_id="1" source_channel="Data" sink_channel="Data" enabled="true" source_channel_id="data" sink_channel_id="data" />
@@ -42,6 +43,7 @@
 		<link id="16" source_node_id="0" sink_node_id="17" source_channel="Data" sink_channel="Data" enabled="true" source_channel_id="data" sink_channel_id="data" />
 		<link id="17" source_node_id="0" sink_node_id="18" source_channel="Data" sink_channel="Data" enabled="true" source_channel_id="data" sink_channel_id="data" />
 		<link id="18" source_node_id="0" sink_node_id="19" source_channel="Data" sink_channel="Data" enabled="true" source_channel_id="data" sink_channel_id="data" />
+		<link id="19" source_node_id="0" sink_node_id="20" source_channel="Data" sink_channel="Data" enabled="true" source_channel_id="data" sink_channel_id="data" />
 	</links>
 	<annotations />
 	<thumbnail />
@@ -419,6 +421,18 @@ lH2UKIwDYWdllEsCjAdhbmFlbWlhlEsBjBhjcmVhdGluaW5lX3Bob3NwaG9raW5hc2WUSwKMCGRp
 YWJldGVzlEsBjBFlamVjdGlvbl9mcmFjdGlvbpRLAowTaGlnaF9ibG9vZF9wcmVzc3VyZZRLAYwJ
 cGxhdGVsZXRzlEsCjBBzZXJ1bV9jcmVhdGluaW5llEsCjAxzZXJ1bV9zb2RpdW2USwKMA3NleJRL
 AYwHc21va2luZ5RLAWgeSwKMC0RFQVRIX0VWRU5UlEsBdYwFbWV0YXOUfZR1YmF1Lg==
+</properties>
+		<properties node_id="20" format="pickle">gASVSgIAAAAAAAB9lCiMC2F1dG9fY29tbWl0lIiMEmNvbnRyb2xBcmVhVmlzaWJsZZSIjBNzYXZl
+ZFdpZGdldEdlb21ldHJ5lENCAdnQywADAAAAAAFHAAAA6QAABWIAAAL7AAABSAAAAQcAAAVhAAAC
++gAAAAAAAAAABqsAAAFIAAABBwAABWEAAAL6lIwHc29ydGluZ5RLAIwDc2lwlIwOX3VucGlja2xl
+X2VudW2Uk5SMDFB5UXQ1LlF0Q29yZZSMCVNvcnRPcmRlcpRLAIeUUpSGlIwLX192ZXJzaW9uX1+U
+SwKMEGNvbnRleHRfc2V0dGluZ3OUXZSMFW9yYW5nZXdpZGdldC5zZXR0aW5nc5SMB0NvbnRleHSU
+k5QpgZR9lCiMBnZhbHVlc5R9lCiMCWNvbG9yX3ZhcpSMC0RFQVRIX0VWRU5UlEtlhpSMDXNlbGVj
+dGVkX3ZhcnOUXZRoGUtlhpRhSv3///+GlGgOSwJ1jAphdHRyaWJ1dGVzlH2UKIwDYWdllEsCjAdh
+bmFlbWlhlEsBjBhjcmVhdGluaW5lX3Bob3NwaG9raW5hc2WUSwKMCGRpYWJldGVzlEsBjBFlamVj
+dGlvbl9mcmFjdGlvbpRLAowTaGlnaF9ibG9vZF9wcmVzc3VyZZRLAYwJcGxhdGVsZXRzlEsCjBBz
+ZXJ1bV9jcmVhdGluaW5llEsCjAxzZXJ1bV9zb2RpdW2USwKMA3NleJRLAYwHc21va2luZ5RLAYwE
+dGltZZRLAmgZSwF1jAVtZXRhc5R9lHViYXUu
 </properties>
 	</node_properties>
 	<session_state>
